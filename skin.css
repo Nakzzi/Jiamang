@@ -204,7 +204,7 @@ button, a {
     border-radius: 14px 14px 0 0;
 }
 #main .menu-wrapper > a:hover {
-	background-color: var(#e9f0ff);
+    color: #e9f0ff;
 }
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
     background: #fff;
