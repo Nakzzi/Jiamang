@@ -1,0 +1,226 @@
+*::selection{
+    background:#cedbf2;
+    color: #fff;
+}
+
+html, body {
+    width: 100% !important;
+    height: 100%;
+    background: #fff;
+
+
+letter-spacing: -0.05em !important;
+
+
+  font-family: 'GoyangDeogyang';
+    background: linear-gradient(142deg, #fff, #c3d0ea);
+}
+header #right-search-form>input[type=text] {
+    position: relative;
+    border: 3px solid #86a5df;
+    background: #fff;
+    font-size: 1.1em;
+    padding: 0.3em 0.5em;
+    border-radius: 15px;
+}
+header #right-search-form>#right-search-btn {
+    color: #86a5df;
+    background: transparent;
+    border: none;
+    font-size: 1.4em;
+}
+header #header-bar>.row {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border: 3px solid #86a5df;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #999;
+}
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #86a5df;
+    padding: 4px 8px;
+    color: #fff;
+    font-weight: bold;
+}
+#main #main-content>div.frame {
+    background: #fff;
+    border: 3px solid #86a5df;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #999;
+}
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #86a5df;
+    color: #fff;
+    font-weight: bold;
+    padding: 1px 5px;
+    font-size: 11px;
+    border-radius: 100px;
+}
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 13px;
+    position: relative;
+    text-align: center;
+    padding: 0 5px;
+    color: #86a5df;
+    word-break: break-word;
+    border-radius: 1px;
+    top: 2px;
+    float: left;
+}
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    color: #dbc87b;
+    font-weight: bold;
+}
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+    display: block;
+    width: 100px;
+    letter-spacing: 0;
+    text-overflow: ellipsis;
+    font-size: 90%;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: nowrap;
+    color: #9c9475;
+    height: 17px;
+    line-height: 1.42857;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #dbc87b;
+    border-color: #dbc87b;
+}
+.btn-primary:hover {
+    color: #dbc87b;
+    background-color: #fff;
+    border-color: #dbc87b;
+}
+#article-list #article-list-category {
+    background: #fff;
+    border-top: 2px solid #86a5df;
+}
+#article-list #article-list-category>a {
+    display: inline-block;
+    padding: 11px 16px;
+    background: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+#article-list>.article-list-row>.item>.list-title>a:visited {
+    color: #888 !important;
+}
+#board-info h1>a {
+    text-decoration: none;
+    color: #3b4453;
+}
+#article-list>.article-list-row.notice {
+    border: 2px dashed #86a5df;
+    margin-bottom: 2px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+#board-info #board-info-profile-img {
+    width: 3.5em;
+    height: auto;
+    position: absolute;
+    top: 13px;
+    left: 16px;
+}
+#board-info {
+    width: 100%;
+    height: 64px;
+    overflow: hidden;
+    line-height: 1;
+    margin: 0 0 1em;
+    padding: 1em;
+    position: relative;
+}
+#board-info #board-info-bottom {
+    padding-top: 3px;
+    margin-left: 65px;
+}
+#board-info h1 {
+    font-size: 24px;
+    vertical-align: top;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #e2e2e2;
+    margin-left: 65px;
+}
+/*이아래부터 설명까지 프로필수정*/
+
+eader .row .co1-xs-4 a:hover{
+ color: #7092be;
+ text-decoration: none;
+}
+button, a {
+    cursor: pointer;
+    text-decoration: none !important;
+/*위 설명없는곳부터 여기까지 로고이미지 제거 텍스트로 링게더 입력후 링크(a코드)에 생기는 밑줄 제거*/
+}
+#main .menu-wrapper>.header {
+    background: #86a5df;
+    color: #fff;
+    padding: 0.45em 1.4em 0.45em 1em;
+    font-weight: bold;
+}
+
+#main .menu-wrapper .spacer {
+    background: #d6dff0;
+    display: block;
+    height: 0.35em;
+}
+#main .menu-wrapper>a>em {
+    color: #c1cadb;
+    text-decoration: none;
+    font-style: normal;
+    width: 24px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+}
+#main .menu-wrapper>a>i.fa.fa-square {
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.1em;
+    color: #c1cadb;
+    vertical-align: 0.2em;
+}
+#article-list>.article-list-row {
+    text-align: center;
+    display: table;
+    width: 100%;
+    border-right: none;
+}
+#main .menu-wrapper {
+    border: none;
+    margin-bottom: 0.8em;
+    box-shadow: 3px 3px 10px #999;
+}
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
+    background: #fff;
+    color: #86a5df;
+}
+
+@font-face { font-family: 'GoyangDeogyang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangDeogyang.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+html {
+
+  background: linear-gradient(to bottom, #FFE6E6, #FFD2D2);
+
+  height: auto !important;
+
+}
+#article-content-wrapper>.header {
+    border-top: 2px solid #86a5df;
+    background: #f6f6f6;
+    padding: 0.6em 0.8em;
+}
+#article-reply-area > .header h5 {
+    font-size: 14px;
+    color: #86a5df;
+    font-weight: bold;
+}
