@@ -200,6 +200,10 @@ button, a {
     border: none;
     margin-bottom: 0.8em;
     box-shadow: 3px 3px 10px #999;
+    border-radius: 14px 14px 0 0;
+}
+#main .menu-wrapper > a:hover {
+	background-color: var(#e9f0ff);
 }
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
     background: #fff;
