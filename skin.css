@@ -87,16 +87,13 @@ header #header-bar #header-top-notice strong.notice-badge {
     height: 17px;
     line-height: 1.42857;
 }
-#article-list>.article-list-row {
-	border: none;
-	transition: 0.2s;
-}
 
 #article-list>.article-list-row:hover,
 #article-list>.article-list-row:focus {
 	background-color: #e9f0ff;
 	transform: scale(1.01);
 	transition: 0.2s;
+}
 .btn-primary {
     color: #fff;
     background-color: #dbc87b;
