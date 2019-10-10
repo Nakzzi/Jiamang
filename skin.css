@@ -155,11 +155,12 @@ eader .row .co1-xs-4 a:hover{
  color: #7092be;
  text-decoration: none;
 }
+
 button, a {
     cursor: pointer;
     text-decoration: none !important;
-/*위 설명없는곳부터 여기까지 로고이미지 제거 텍스트로 링게더 입력후 링크(a코드)에 생기는 밑줄 제거*/
 }
+
 #main .menu-wrapper>.header {
     background: #86a5df;
     color: #fff;
