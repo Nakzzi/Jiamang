@@ -166,6 +166,7 @@ button, a {
     color: #fff;
     padding: 0.45em 1.4em 0.45em 1em;
     font-weight: bold;
+    border-radius: 14px 14px 0 0;
 }
 
 #main .menu-wrapper .spacer {
