@@ -87,6 +87,16 @@ header #header-bar #header-top-notice strong.notice-badge {
     height: 17px;
     line-height: 1.42857;
 }
+#article-list>.article-list-row {
+	border: none;
+	transition: 0.2s;
+}
+
+#article-list>.article-list-row:hover,
+#article-list>.article-list-row:focus {
+	background-color: #e9f0ff;
+	transform: scale(1.01);
+	transition: 0.2s;
 .btn-primary {
     color: #fff;
     background-color: #dbc87b;
@@ -204,7 +214,7 @@ button, a {
     border-radius: 14px 14px 0 0;
 }
 #main .menu-wrapper > a:hover {
-    color: #e9f0ff;
+    back-graund-color: #e9f0ff;
 }
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
     background: #fff;
