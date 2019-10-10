@@ -229,3 +229,9 @@ html {
     color: #86a5df;
     font-weight: bold;
 }
+#article-list>.article-list-row:hover,
+#article-list>.article-list-row:focus {
+	background-color: #edf3fb;
+	transform: scale(1.01);
+	transition: 0.2s;
+}
